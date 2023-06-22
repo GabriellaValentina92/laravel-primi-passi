@@ -21,8 +21,15 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <h1 style="text-align: center; font-size: 50px; color: white; background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); text-shadow: 4px 4px; padding: 0.6rem;">HELLO WORLD</h1>
+        <div class="container" style="background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);">
+            <h1 style="text-align: center; font-size: 50px; color: white; text-shadow: 4px 4px; padding: 0.6rem;">HELLO WORLD</h1>
+            <div class="navmenu" style="background-color: acquamarine; display: flex; align-items: center; justify-content:space-between;">
+                <h2 style="padding: 0.7rem; font-size: 2rem; color: white;">Laravel</h2>
+                <div class="links" style="padding: 0.6rem;">
+                    <a href="http://localhost:8000/dobby" style="text-decoration: none; color: black; border: 1px solid black; border-radius: 0.5rem; padding: 0.5rem; margin-right: 0.7rem; background-color: white;"> Lumos</a>
+                    <a href="http://localhost:8000/moria" style="text-decoration: none; color: black; border: 1px solid black; border-radius: 0.5rem; padding: 0.5rem; background-color: white;"> Hobbit</a>
+                </div>
+            </div>
         </div>
     </body>
 </html>

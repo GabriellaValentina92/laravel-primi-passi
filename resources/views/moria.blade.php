@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container" style="max-width: 1100px; margin: 20px auto;">
-        <img src="{{ url('/image/dobby.jpg') }}" alt="">
+<div class="container" style="max-width: 1100px; margin: 20px auto;">
+        <img src="{{ url('/image/moria.jpg') }}" alt="">
     </div>
 </body>
 </html>
